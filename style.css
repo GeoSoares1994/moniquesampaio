@@ -221,12 +221,20 @@ strong{
 }
 
 @media (max-width: 450px) {
-    .menu{
+
+    .header {
+        width: 80%;
+    }
+    .body{
+        margin: 0 auto;
+    }
+    .menu {
         width: 30%;
         position: relative;
         margin: 0 auto;
     }
-    .menu-link{
+
+    .menu-link {
         display: block;
         background-color: black;
         color: white;
@@ -235,14 +243,16 @@ strong{
         border-radius: 5px;
         border: none;
     }
-    .menu-content{
+
+    .menu-content {
         display: none;
         text-decoration: underline;
         padding: 12px 16px;
         position: absolute;
         z-index: 1;
     }
-    .menu-content a{
+
+    .menu-content a {
         color: white;
         text-align: center;
         display: flex;
@@ -252,7 +262,60 @@ strong{
         font-size: 15px;
         margin: 10px 0;
     }
-    .menu:hover .menu-content{
+
+    .menu:hover .menu-content {
         display: block;
+    }
+
+    .container1 {
+        margin: 50px auto;
+        width: 80%;
+        display: block;
+        text-align: center;
+    }
+
+    .informations {
+        width: 100%;
+    }
+
+    .video-ambiente {
+        width: 80%;
+        margin: 50px auto;
+
+    }
+
+    .galeria {
+        width: 80%;
+    }
+
+    .galeria img {
+        width: 50px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .container2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .caixa1 {
+        width: 100%;
+    }
+
+    .texto-galeria {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .texto-galeria h1 {
+        font-size: 40px;
+    }
+
+    .video-ambiente video {
+        width: 80%;
+        margin: 0 auto;
     }
 }
