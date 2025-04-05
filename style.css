@@ -1,56 +1,70 @@
-*{padding: 0; margin: 0; box-sizing: border-box;}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-body{
+body {
     background-color: black;
 }
-.logo{
+
+.logo {
     width: 250px;
     margin-bottom: 20px;
 }
-.menu-link{
+
+.menu-link {
     display: none;
 }
-nav{
+
+nav {
     width: 100%;
     background-color: white;
     padding: 20px;
     text-align: center;
 }
-.menu-content a{
+
+.menu-content a {
     margin: 0 20px;
     text-decoration: none;
     font-size: 20px;
     color: black;
 
 }
-.menu-content a:hover{
+
+.menu-content a:hover {
     text-decoration: underline;
 }
-.container1{
+
+.container1 {
     width: 80%;
     margin: 10vh auto;
     display: flex;
 }
-.informations{
+
+.informations {
     width: 30vw;
     margin: 0 30px;
     text-align: center;
     background-color: transparent;
     padding: 30px;
 }
-.informations h1{
+
+.informations h1 {
     color: white;
     font-size: 35px;
     position: relative;
     margin-top: 200px;
 }
-.informations p{
+
+.informations p {
     color: white;
     font-size: 20px;
     margin-top: 50px;
     position: relative;
 }
-.informations button{
+
+.informations button {
     width: 200px;
     border: none;
     border-radius: 5px;
@@ -59,19 +73,22 @@ nav{
     margin-top: 75px;
     height: 50px;
     cursor: pointer;
-    
+
 }
-.informations button:hover{
+
+.informations button:hover {
     background-color: black;
     color: white;
     border: white 2px solid;
     transition: 0.5s;
 }
-.video-ambiente video{
+
+.video-ambiente video {
     width: 20vw;
     border-radius: 20px;
 }
-.container2{
+
+.container2 {
     width: 80%;
     background-color: black;
     margin: 0 auto;
@@ -79,20 +96,24 @@ nav{
     padding: 50px;
     text-align: center;
 }
-.titulo{
+
+.titulo {
     text-align: center;
     width: 100%;
 }
-.titulo h1{
+
+.titulo h1 {
     color: white;
     font-size: 35px;
 }
-.titulo p{
+
+.titulo p {
     font-size: 20px;
     color: white;
     margin-bottom: 100px;
 }
-.caixa1{
+
+.caixa1 {
     width: 15vw;
     display: inline-block;
     flex-direction: column;
@@ -102,16 +123,20 @@ nav{
     padding: 10px;
     margin: 30px 10px;
 }
-.caixa1 img{
+
+.caixa1 img {
     width: 100px;
     align-items: center;
     margin: 10px auto;
 }
-.caixa1 h2, p{
+
+.caixa1 h2,
+p {
     margin: 10px 0;
     color: white;
 }
-.container3{
+
+.container3 {
     width: 80%;
     margin: 50px auto;
     background-color: black;
@@ -120,36 +145,42 @@ nav{
     text-align: center;
     border: white 1px solid;
 }
-.container3 h1{
+
+.container3 h1 {
     color: white;
     font-size: 35px;
     margin-bottom: 50px;
 }
-.container3 p{
+
+.container3 p {
 
     color: white;
     font-size: 15px;
     margin-bottom: 50px;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     max-width: 50%;
     margin: 0 auto;
 }
-form input{
+
+form input {
     border-radius: 5px;
     margin: 5px 0;
     border: none;
     height: 40px;
 }
-form textarea{
+
+form textarea {
     border-radius: 5px;
     margin: 5px 0;
     max-width: 100%;
     max-height: 20vh;
 }
-form button{
+
+form button {
     background-color: black;
     border: white 2px solid;
     color: white;
@@ -157,23 +188,27 @@ form button{
     border-radius: 5px;
     margin: 30px 0;
 }
-form button:hover{
+
+form button:hover {
     background-color: white;
     color: black;
 }
-footer{
+
+footer {
     width: 100%;
     background-color: transparent;
     text-align: center;
     height: 10vh;
     color: white;
 }
-.texto-galeria{
+
+.texto-galeria {
     color: white;
     text-align: center;
     font-size: 35px;
 }
-.galeria{
+
+.galeria {
     width: 50%;
     display: flex;
     margin: 100px auto;
@@ -182,27 +217,33 @@ footer{
     padding: 50px;
     border-radius: 20px;
 }
-.galeria img{
+
+.galeria img {
     width: 150px;
     margin: auto;
     border-radius: 5px;
 }
-.sobre-nos{
+
+.sobre-nos {
     width: 50%;
     margin: 50px auto;
     text-align: center;
 }
-.sobre-nos h1{
+
+.sobre-nos h1 {
     color: white;
     font-size: 40px;
 }
-.sobre-nos p{
+
+.sobre-nos p {
     font-size: 20px;
 }
-strong{
+
+strong {
     color: yellowgreen;
 }
-.sobre-nos button{
+
+.sobre-nos button {
     width: 200px;
     border: none;
     border-radius: 5px;
@@ -211,9 +252,10 @@ strong{
     margin-top: 75px;
     height: 50px;
     cursor: pointer;
-    
+
 }
-.sobre-nos button:hover{
+
+.sobre-nos button:hover {
     background-color: black;
     color: white;
     border: white 2px solid;
@@ -224,6 +266,7 @@ strong{
 
     .header {
         width: 80%;
+        margin: 0 auto;
     }
     .body{
         margin: 0 auto;
@@ -242,6 +285,7 @@ strong{
         height: 35px;
         border-radius: 5px;
         border: none;
+        margin: 0 auto;
     }
 
     .menu-content {
@@ -255,7 +299,7 @@ strong{
     .menu-content a {
         color: white;
         text-align: center;
-        display: flex;
+        display: block;
         background-color: black;
         border-radius: 5px;
         padding: 5px;
@@ -268,16 +312,20 @@ strong{
     }
 
     .container1 {
-        margin: 50px auto;
+        margin: 10px auto;
         width: 80%;
         display: block;
         text-align: center;
     }
 
     .informations {
-        width: 100%;
+        margin: 0 auto;
+        width: 80%;
     }
-
+    .informations button{
+        text-align: center;
+        margin: 50px auto;
+    }
     .video-ambiente {
         width: 80%;
         margin: 50px auto;
@@ -317,5 +365,18 @@ strong{
     .video-ambiente video {
         width: 80%;
         margin: 0 auto;
+    }
+    .sobre-nos p{
+        font-size: 18px;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .info-contato h1{
+        font-size: 30px;
+    }
+    .info-contato p{
+        font-size: 20px;
     }
 }
